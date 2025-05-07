@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Eunbin Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""I’m someone who gets things done""
+  bio              : "I’m someone who gets things done"
   location         : "Seoul, South Korea"
   email            : "choiqls43@gmail.com
   links:
