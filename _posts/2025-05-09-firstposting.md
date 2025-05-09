@@ -1,5 +1,5 @@
 ---
-layout:single
+layout: single
 title: "파이썬 리스트 해부학: 인덱싱과 슬라이싱 편"
 --- 
 
