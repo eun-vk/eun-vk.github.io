@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "파이썬 리스트 해부학: 리스트의 기능(메서드)"
 --- 
 
