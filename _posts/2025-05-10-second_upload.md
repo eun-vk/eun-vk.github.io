@@ -1,0 +1,125 @@
+---
+layout: post
+title: "파이썬 리스트 해부학: 리스트의 기능(메서드)"
+--- 
+
+
+# 📚리스트(list)의 기능(메서드)
+---
+
+## 📌append() <span style="color:gray">|</span> 추가
+• 리스트의 가장 끝(오른쪽)에 값을 추가한다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuaJj2ooNOEhKqVdO0l03WH7eQ6hhIy9OmtKRktoFL0LK70ekfxf5Z9zUvI7wo0e_-oBVpMYAQCsCypadXFaCcbek5TMGwLkG6RcBFtMUYVXsTlcrgLUBgHZ-8H-mVjGtXQKuK82b0f5Iw15YgZt_j0n3_FXY8XtZoHlDvvhiV7ZslZ0LG0cH16c5rQBg/w593-h262/001.jpg" width="550px" />
+
+---
+
+## 📌clear() <span style="color:gray">|</span> 삭제  
+• 리스트 안에 있는 모든 값을 삭제한다.   (단, 리스트 자체는 존재한다.)  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_tPqvuVVJx_-QGXwWxuX6VOax6Pxe-16RLnrGBeGp50vL6vTt4Yeha_scLZXR_oVpcF2A3qHhnCqlixhsTyWQmXI1I5dBNfQu3zxFMNWUV0a7x9I43zgneHxD65aremEb7ClHtNIWyas7RavzuaW6zd4e3rFBc2KIruQ8osAEK56TmlwXiRgld3p52II/w591-h262/002.jpg" width="550px" />
+
+---
+
+## 📌copy() <span style="color:gray">|</span> 복제
+• 리스트 안에 있는 값을 복제해 새로운 리스트를 반환한다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC55v8a_pW6IDKsGlMEcJ2wO47YvgVyO4MGhUAnWaGrhKLpsaDdsWjFZz_jYTl2WCM6fNbe9VfNaiCDSreSFjH68QpmbJDVBoPgILXTEqTOEY9-NlxOgiHdT06WIuRU4aXQQWAp2yF4tHy5cvXqvxLJuWwrVTa-zNezCJyU63Zboj2L6-nEDVI9o1sBKQ/w591-h262/003.jpg" width="550px" />
+
+---
+
+## 📌count() <span style="color:gray">|</span> 개수
+• 리스트 안에 있는 특정 값의 개수를 센다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoENxiWOUmYsl1zy3TicHiPKoeNZPQJ7yDJwYBeqvSrSANt1MOaG8psO1-wiNxfcw3fHo82FvL1i6pFpq1xSd9BFIATHU-PEl3Rx9zGfgNYuTIJ4q-Pjt2LsvExL60m8Edy1hVfWY8ipo0Yu8TPgUmyATVT5q_WNO3ci_E56ESqHZcthWoCi12RJAIUtM/w582-h258/004.jpg" width="550px" />
+
+---
+
+## 📌extend() <span style="color:gray">|</span> 확장  
+• 리스트에 순회(반복) 가능한 데이터를 넣는다.  
+
+• 리스트 안에 들어간 값들은 순회가 가능하다.  
+
+• 문자열도 순회가 가능하다.   
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggGCg4FNeg3DbdxWoa4eGwxYM_wuhYAkEsAL3IzOsrK_ZLBiB6RfX4hd7lCVQ8svdOII1pJ86GFCSHFuprK9se0I2-dcGyIyO6WpfilIA6fkQDpgv9cps2t3bXNrHiJOu1pP0C1hbJnPW3IgLr-gJq9tk6ZqLAcdjS0XRCLXX0DIcEnMqxaXVw8hkMApw/w580-h257/005.jpg" width="550px" />
+
+---
+
+## 📌index() <span style="color:gray">|</span> 찾기
+• 리스트에서 특정 값의 위치(인덱스)를 찾는다.    
+
+• find()는 index()와 같이 값을 찾는 메서드이지만, 리스트에서는 지원하지 않는다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8rSbn9cQgUrHGOv158b_FJa6eGro_3fr-fed7licMSx5v6C4NRR7VGkyDYflSKzrGVCQN0rEyXeKfPA7pDHEi-Lrw9hoPq9hwqKXMo2-Xx3QUItFyfKtxZvJWaPr_onXN7ZDOxuOtKLo3Fo2pOAUZoq5BJAD2nSzDqPJw1jUj-4U9wBpZphi3YOof4cg/w571-h253/006.jpg" width="550px" />
+
+---
+
+## 📌insert() <span style="color:gray">|</span> 삽입
+• 원하는 인덱스 위치에 값을 삽입한다.
+
+• 사용 형태: 리스트.insert(인덱스, 넣을 값)
+
+• insert()는 기존 리스트에 값을 넣는 것이며, create()는 새 리스트를 만드는 것을 의미한다.
+
+• 값을 넣은 위치 기준으로 뒤에 있는 값들이 전부 밀린다.
+
+• 데이터가 많은 리스트에서 사용 시 비용이 많이 들 수 있다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqttNYsXZcHqHfDLI2xmmArOgPH9MvbWYWsS9A4CqBjGxPqjfLQg2MGiLhXv4ZD57XcCSjjdHZleQo4C_WcOCjhjuP6IAv-O4eauDj3P4o2NlR3scLv7YcqxJPhdxI7S2lyKJhoDlDRVvxA0F06mve0nfCevloch0M5nf4QYMDJbTvIoHmt6XZQ2SrchA/w565-h251/007.jpg" width="550px" />
+
+---
+
+## 📌pop() <span style="color:gray">|</span> 추출
+• 특정 위치(인덱스)에 있는 값을 반환한 다음 리스트에서 제거한다.
+→ 값을 리스트에서 꺼내 사용할 수 있으며, 꺼낸 값은 리스트에서 제거된다(완전 삭제가 아니다).
+
+• 후입선출(이후에 들어온 값이 먼저 추출된다).
+
+• 리스트에 값이 비어 있으면 IndexError가 발생한다.
+
+• 에러를 미연에 방지하기 위해서는 if문을 활용해 조건을 걸어야 한다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheZHLIhD4zUAyts_-TRGY6nZfjBgKOswVq9CjmL0QMJphqzmsmvEWn7VlpcvGQNjXZO4xvYzgsUPnb6tY7-TuLACOfOgMtTDoD57-wcxOy4ORrjRKoCfBvF2DwwpEJyIY1E-gzuWGaw3tEyCwmKtJyfbP26gNthUhVPHl9dHl3W1RrC5My4gRYjt88QKs/w566-h251/008.jpg" width="550px" />
+
+---
+
+## 📌remove() <span style="color:gray">|</span> 삭제
+• 리스트에서 지정한 값을 찾아 가장 먼저 나오는 값 하나만 삭제한다.
+
+• 제거된 값은 반환되지 않으며 완전히 삭제된다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaiL_CKAI-ZnEbDldE-Hvhq16aDX8YvZ39cAxslmUx-jz9rNvgVbvoQZHO0mNzfXGWO0GE3agnf6SeHlhx-Lc4yi1jMMm4vV8E3A0Amo2QKEQdtZI07iX2To4-8bXiYWzrJoervXXAbE8XzHYIFbz6eafxgpSR67-ZZLi1411KXFMZF8xHmQAI7IsTHGI/w565-h250/009.jpg" width="550px" />
+
+
+---
+
+## 📌reverse() <span style="color:gray">|</span> 뒤집기
+• 리스트 안에 있는 값을 뒤집는다 (정렬은 하지 않는다).
+
+• 원본 리스트가 변경된다(즉, 리스트가 훼손된다).
+→ 만약 원본 리스트가 변경되지 않기를 원하면, reversed()를 사용해야 한다.
+
+###  🔍reversed()란?  
+• 파이썬에서 제공하는 내장 함수이다.
+
+• 값이 뒤집힌 결과를 새롭게 보여줄 뿐, 원래 리스트에는 영향을 주지 않는다. (실무에서 원본 데이터가 훼손되면 안 된다.)  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3cPFn3z7_1LZrM_yc_bcoPPne3pVluX7KRE7z3Jgi28yQgQBwEsS-0NOHppsbmZabjfQva_rei14QJUzco2fVtnZ9kJIjTBIipjTVk2ScXiU8n1RR0toNE6dw6iMAdYu9-GgW0wNCvVFiAqrgoABlaiVdF7eEzSI3jIoq2VmF-x_NUTleSWS7h6oZsYM/w563-h250/010.jpg" width="550px" />
+
+---
+
+## 📌sort() <span style="color:gray">|</span> 오름차순 정렬
+• 리스트 안에 있는 값을 오름차순으로 정렬한다.
+
+• 원본 리스트가 변경된다(즉, 리스트가 훼손된다).
+→ 만약 원본 리스트가 변경되지 않기를 원하면, sorted()를 사용해야 한다.
+
+###  🔍 sorted()란?  
+• 파이썬에서 제공하는 내장 함수이다.
+
+• 값을 정렬된 순서로 새롭게 반환하며, 원본 데이터는 변경되지 않는다.  
+
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuzRtZ5lwOx5xW50nKDz5fdqa9CTiC5T14EfUGfW4l5eh25tyb9c27DxK5TCL7Se6VqeyCy8bW383bngHKstZJBis2beY30S53GDpk7r-SIQdtmdgeXoPtve3lb4yG6DN4Rj1RaiSrQAOA6hWwOzi5bq41theyvnJLVyGl1ZLvn0r5rMkngX-9YH7klKw/w566-h251/%EC%A0%9C%EB%AA%A9%EC%9D%84-%EC%9E%85%EB%A0%A5%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94_-011.jpg" width="550px" />
+
+---
