@@ -35,3 +35,12 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+pre, code {
+  background-color: #f6f8fa;
+  padding: 0.8em;
+  border-radius: 5px;
+  display: block;
+  overflow-x: auto;
+  font-family: Consolas, monospace;
+  color: #333;
